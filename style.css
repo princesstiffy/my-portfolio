@@ -224,6 +224,8 @@ video {
                         height: 400px;
                         object-fit: cover;
                         margin-top: 50px;
+                        border: #000 double 3px solid;
+                        border-radius: 10px;
                     }
 
                     #about {
