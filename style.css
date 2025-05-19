@@ -3091,7 +3091,7 @@ img.lb-image.ai-style-change-1 {
                     padding-right: 10px;
                 }
 
-                .style-text li {
+                .style-text li, .style-text ul {
                     width: 34ch;
                     font-size: 16px;
                 } 
