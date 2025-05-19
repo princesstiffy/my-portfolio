@@ -242,8 +242,26 @@ function createDiv(height, width) {
           
 
 
+// HAMBURG NAV BAR
+
+function toggleNav() {
+  const nav = document.getElementById("myTopnav");
+  nav.classList.contains("responsive")
+    ? nav.classList.remove("responsive")
+    : nav.classList.add("responsive");
+}
 
 
+
+// HAMBURG NAV BAR ANIMATIONS
+
+function toggleNav() {
+  const nav = document.getElementById("myTopnav");
+  const icon = document.querySelector(".icon i");
+
+  nav.classList.toggle("responsive");
+  icon.classList.toggle("active"); // add this line
+}
 
 
 

@@ -7,18 +7,33 @@
     <link rel="icon" href="images/logos/tiffanynobg.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/dmx2hde.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="main_nav">
+
+        <nav class="nav-wrapper">
+            <!-- top row logo & hamburger -->
+        <div class="nav-header">
+                <!-- logo -->
+                <a href="index.html" class="logo">
+                    <img src="images/logos/tiffanynobg.png" alt="logo">
+                </a>
+
+                <!-- hamburger -->
+                <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+        </div>
+
+            <ul class="main_nav" id="myTopnav">
                 <li><a href="index.html">home</a></li>
                 <li><a href="portfolio.html">portfolio</a></li>
-                <li class="logo"><img src="images/logos/tiffanynobg.png" alt="logo"></li>
                 <li><a href="gallery.html">extras</a></li>
                 <li><a href="contact.html">contact</a></li>
             </ul>
         </nav>
+
     </header>
 
 
@@ -117,25 +132,25 @@
             <div class="experience-content">        
                     <div class="exp_grid">
 
-                        <div class="exp_box">
+                        <div class="exp_box1">
                             <img src="images/otherart/ilovebikini.jpg" alt="2000s dress up game drawing" loading="lazy">
                             <h3>procreate</h3>
                             <p>I have been using Procreate for years to produce digital illustrations and animations for branding and social media content. </p>
                         </div>
 
-                        <div class="exp_box">
+                        <div class="exp_box2">
                             <img src="images/cb/indiesleaze1.png" alt="lunar laundry logo" loading="lazy">
                             <h3>photoshop & illustrator</h3>
                             <p>I use both Photoshop and Illustrator to create digital designs like magazine pages, logos, and other artwork.</p>
                         </div>
 
-                        <div class="exp_box">
+                        <div class="exp_box3">
                             <img src="images/sites/gibbysite.png" alt="gibby's grooming website" loading="lazy">
                             <h3>front-end development</h3>
                             <p>I have foundational skills and knowledge in front-end work like HTML, CSS, and JavaScript to create websites.</p>
                         </div>
 
-                        <div class="exp_box">
+                        <div class="exp_box4">
                             <video src="images/cb/cbgirls_schoolanim.mp4" autoplay muted loop></video>
                             <h3>extras</h3>
                             <p>I have also done some video production and animations- both 3d and 2d using programs like Blender and Procreate.</p>
@@ -164,10 +179,7 @@
 
 
 </div>
-
-
-
-
+ 
     </main>
     <script src="javascript.js"></script>
 
