@@ -5,6 +5,22 @@ console.log("Checking if script is running...");
 console.log("javascript.js is loaded!");
 
 
+
+
+
+// LOADING SCREEN
+
+window.addEventListener("load", function () {
+  const loader = document.getElementById("loading-screen");
+  loader.style.opacity = "0";
+  setTimeout(() => {
+    loader.style.display = "none";
+  }, 500); // matches the fade time in the CSS
+});
+
+
+
+
 // INDEX SLIDER CARD CAROUSEL 
 
       let items = document.querySelectorAll('.slider .item');
